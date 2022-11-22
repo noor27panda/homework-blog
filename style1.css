@@ -1,0 +1,115 @@
+.navbar{
+    background-color:black;
+    color: white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin: 0;
+    padding: 4px;
+    position: sticky; 
+    width: 100%;
+    top:0;
+    /* position: relative; */
+    z-index: 999;
+
+}
+.names{
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    margin-right: 10px;
+   
+}
+.navbar img{
+    padding:5px
+}
+body{
+    margin: 0;
+    padding: 0;
+} 
+.greynav{
+background-color:rgb(248,248,248);
+color: black;
+width: 100%;
+height: 90px;
+position: absolute;
+padding-left: 5px;
+z-index: -1;
+}
+
+.cards {
+    margin-top: 100px;
+    top:0;
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.oneblog{
+    align-items: center;
+    text-align: center;
+}
+.oneblog img{
+    z-index: -1;
+    height: 50%;
+    width: 60%;
+}
+.card-info{
+    background-color: #fff;
+    border: none;
+    border-radius: 1em;
+    font-size: 1vw;
+    height: 50%;
+    margin: 0 auto;
+    max-width: 40%;
+    padding: .5% 3.5%;
+    position: relative;
+    text-align: center;
+    top: -75px;
+    z-index: 0;
+}
+.card-info h1{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.card-info p{
+    display: block;
+    padding: 2PX;
+   
+}
+.icons{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1vw;
+    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons .eye{
+    align-items: center;
+    margin: 0 0.5em;
+    text-align: center;
+}
+.icons label{
+    font-size: 10px;
+    font-weight:bolder;
+}
+.button{
+    align-items:center;
+    display: flex;
+    margin-left: 47%;
+    background-color: #05a5ea;
+    border: none;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    padding: 1em 2em;
+
+}
